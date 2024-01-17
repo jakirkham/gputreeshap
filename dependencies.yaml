@@ -13,9 +13,10 @@ dependencies:
     common:
       - output_types: [conda]
         packages:
+          - c-compiler
           - cxx-compiler
           - cmake
-          - gxx =11
+          - gcc =11
           - make
   docs:
     common:
