@@ -15,7 +15,7 @@ dependencies:
         packages:
           - binutils
           - cmake
-          - gxx <=11
+          - gxx =11
           - make
   docs:
     common:
